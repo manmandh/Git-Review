@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+      .tab {
+        max-width: 500px;
+        margin: 25px auto;
+      }
+      .tab-list {
+        display: flex;
+        gap: 12px;
+        background-color: #eee;
+        border-radius: 6px;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+      .tab-item {
+        flex: 1;
+        text-align: center;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: inherit;
+      }
+      .tab-item:hover {
+        background-color: #fafafa;
+      }
+      .tab-item.is-active {
+        color: white;
+        background-color: #6a5af9;
+      }
+      .tab-content {
+        background-color: #eee;
+        padding: 20px;
+        border-radius: 6px;
+      }
+    </style>
+    <div class="tab">
+      <div class="tab-list">
+        <div class="tab-item is-active">Recent</div>
+        <div class="tab-item">Popular</div>
+        <div class="tab-item">Trending</div>
+      </div>
+      <div class="tab-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+        aspernatur animi asperiores repudiandae officiis molestiae! Neque atque
+        quibusdam eum eos culpa animi similique dolores ea maxime assumenda
+        delectus, in expedita?
+      </div>
+    </div>
+    
+</body>
+</html>
