@@ -1,0 +1,2 @@
+- git add `file`
+- git add .
