@@ -27,6 +27,7 @@ button {
   outline: none;
   border: 0;
   /* abc change local */
+  border-radius: 10px;
 }
 body {
   min-height: 100vh;
